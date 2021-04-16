@@ -46,7 +46,7 @@ https://35.184.88.145/blue/public/salesperson.php?id=%27+union+select+1%2C2%2C3%
 - Now the owner on PHPSESSID hardcoded in js script is logged into the website as an admin
 - This is possible because new PHPSESSID is not generated when a used logs into website
 
-<img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_11.gif" width=250> <img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_SE(2ndgen)_part_2.gif" width=250><br>
+<img src="https://github.com/Rakesh-Nagaraju/Weeks-7-8-Project-WordPress-vs.-Kali/blob/main/session_hijacking.gif" width=250> <img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_SE(2ndgen)_part_2.gif" width=250><br>
 
 ## Vulnerability #3: Cross-Site Scripting (XSS)
 ### Steps to recreate:

